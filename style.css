@@ -1,0 +1,116 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* top bar  */
+.head-btn a{
+  padding: 3px;
+}
+
+/* navbar  */
+.contanier {
+  display: flex;
+  width: 100%;
+  margin-top: 0px;
+  background-color: whitesmoke;
+}
+.contanier ul {
+  display: inline-flex;
+  list-style: none;
+}
+.contanier ul li {
+  width: 145px;
+  margin: 15px 5px;
+  padding: 2px;
+  font-weight: bold;
+}
+
+/* .contanier ul li a{
+  font-weight: bold;
+} */
+.contanier ul li:hover {
+  display: flex;
+  background-color: rgb(118 181 144);
+  border-radius: 20px;
+}
+.sub {
+  display: none;
+}
+.contanier ul li:hover .sub {
+  display: block;
+}
+.sub ul {
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  background-color: white;
+  margin-left: -40px;
+}
+.contanier img{
+  width: 300px;
+  height: 60px;
+}
+.sub2 {
+  display: none;
+}
+.contanier ul li:hover .sub2 {
+  display: block;
+}
+.sub2 ul {
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -40px;
+  background-color: white;
+}
+.sub3 {
+  display: none;
+}
+.contanier ul li:hover .sub3 {
+  display: block;
+}
+.sub3 ul {
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -70px;
+  background-color: white;
+}
+.sub4{
+  display: none;
+}
+.contanier ul li:hover .sub4 {
+  display: block;
+ }
+
+ .sub4 ul {
+  display: block;
+  position: absolute;
+  margin-top: 30px;
+  margin-left: -90px;
+  background-color: white;
+}
+/* text */
+.title{
+  text-align: center;
+  color: #316dc3;
+  margin: 20px 0px;
+}
+.second{
+  color: #7fae00;
+}
+.h1 h3{
+  color: #316dc3;
+
+}
+.projects marquee{
+  height: 200px;
+}
+
+ 
+
+
+
+
+
+
